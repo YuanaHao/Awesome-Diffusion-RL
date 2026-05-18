@@ -22,7 +22,7 @@ This list tracks reinforcement learning, RLHF, reward optimization, and preferen
 
 Use this table format:
 
-| Year | Title | Venue | Task | Method | Links |
+| Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
 | 2025 | [VideoDPO: Omni-Preference Alignment for Video Diffusion Generation](https://arxiv.org/abs/2412.14167) | arXiv | T2V | DPO | [Paper](https://arxiv.org/abs/2412.14167) |
 
