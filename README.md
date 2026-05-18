@@ -4,6 +4,8 @@ A curated list of papers and resources on reinforcement learning, RLHF, and pref
 
 This repository focuses on **RL for diffusion generation**, especially image and video generation. It does not track the separate line of work on diffusion models used as policies, planners, or dynamics models in reinforcement learning.
 
+This list is maintained with **weekly updates**, with priority given to recent high-impact arXiv papers, papers accepted by top-tier conferences, and influential open-source resources.
+
 ## Scope
 
 Included:
