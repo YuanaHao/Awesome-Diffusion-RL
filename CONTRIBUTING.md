@@ -1,41 +1,43 @@
 # Contributing
 
-Thanks for helping keep this list useful and current.
+Thanks for helping keep this awesome list useful, focused, and easy to scan.
 
 ## Scope
 
-This repository tracks reinforcement learning, RLHF, reward optimization, and preference optimization for image and video diffusion models.
+This list tracks reinforcement learning, RLHF, reward optimization, and preference optimization for image and video diffusion models.
 
-Good fits:
+## Good Fits
 
 - Image or video diffusion papers using RLHF, PPO, GRPO, RLOO, DPO, reward-weighted training, preference optimization, or reward guidance.
 - Reward models, human preference datasets, aesthetic rewards, vision-language rewards, benchmarks, and evaluation protocols used for image/video diffusion alignment.
 - Official codebases, project pages, datasets, and toolkits for RL-based diffusion post-training.
 
-Usually out of scope:
+## Usually Out of Scope
 
 - Diffusion models used as RL policies, planners, or dynamics models.
 - General LLM RLHF papers with no direct image/video diffusion use.
-- Audio, 3D, robotics, molecule, or text diffusion papers unless they are clearly useful background for image/video diffusion alignment.
+- Audio, 3D, robotics, molecule, or text diffusion papers unless clearly useful background for image/video diffusion alignment.
 
 ## Entry Format
 
-Paper entries should use:
+Use this table format:
 
-```markdown
+| Year | Title | Venue | Task | Method | Links |
+| --- | --- | --- | --- | --- | --- |
 | 2025 | [VideoDPO: Omni-Preference Alignment for Video Diffusion Generation](https://arxiv.org/abs/2412.14167) | arXiv | T2V | DPO | [Paper](https://arxiv.org/abs/2412.14167) |
-```
 
-Task tags:
+## Task Tags
 
-- `T2I`: text-to-image
-- `I2I`: image-to-image
-- `T2V`: text-to-video
-- `I2V`: image-to-video
-- `V2V`: video-to-video
-- `Unified`: multiple image/video generation settings
+- `T2I`: Text-to-image generation.
+- `I2I`: Image-to-image generation or editing.
+- `T2V`: Text-to-video generation.
+- `I2V`: Image-to-video generation.
+- `V2V`: Video-to-video generation or editing.
+- `Unified`: Covers multiple image/video diffusion tasks in one system, benchmark, dataset, or method.
 
-Method tags:
+## Method Tags
+
+Use one or more of these method tags:
 
 - `RLHF`
 - `PPO`
@@ -47,27 +49,20 @@ Method tags:
 - `Benchmark`
 - `Toolkit`
 
-## Ordering
+## Ordering Rules
 
-- Add papers newest first inside the most relevant method section.
+- Add new entries newest first in the most relevant section.
 - Put each paper in one primary section.
-- If a paper spans multiple methods, choose the method that best describes its main contribution and include the secondary method in the `Method` column.
+- Include secondary methods in the Method column.
 
 ## Source Quality
 
-Prefer stable, official links:
-
-- arXiv or conference paper pages.
-- Official project pages.
-- Official GitHub repositories.
-- Dataset or benchmark pages.
-
-Avoid adding only social media posts, slide decks, or third-party summaries unless they point to a public technical source.
+Prefer arXiv or conference pages, official project pages, official GitHub repos, and dataset or benchmark pages. Avoid entries supported only by social posts, slides, or third-party summaries without a public technical source.
 
 ## Pull Request Checklist
 
 - The entry is in scope for image/video diffusion alignment.
-- The paper or resource link is public.
-- The task and method tags are filled in.
-- The entry is placed newest first in its section.
-- The same paper is not duplicated elsewhere in the README.
+- At least one public technical link is included.
+- Task and method tags are filled in.
+- The entry is placed newest first in the relevant section.
+- The entry does not duplicate an existing item.
