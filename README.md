@@ -50,6 +50,8 @@ Method tags: `RLHF`, `PPO`, `DPO`, `GRPO`, `RLOO`, `Reward Model`, `Reward Guida
 
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
+| 2026 | [VIGOR: VIdeo Geometry-Oriented Reward for Temporal Generative Alignment](https://arxiv.org/abs/2603.16271) | arXiv | T2V | Reward Model, Reward Guidance | [Paper](https://arxiv.org/abs/2603.16271) |
+| 2026 | [Beyond VLM-Based Rewards: Diffusion-Native Latent Reward Modeling](https://arxiv.org/abs/2602.11146) | arXiv | T2I | Reward Model | [Paper](https://arxiv.org/abs/2602.11146) |
 | 2025 | [VideoScore2: Think before You Score in Generative Video Evaluation](https://arxiv.org/abs/2509.22799) | arXiv | T2V | Reward Model, GRPO | [Paper](https://arxiv.org/abs/2509.22799), [Project](https://tiger-ai-lab.github.io/VideoScore2/) |
 | 2025 | [Cycle Consistency as Reward: Learning Image-Text Alignment without Human Preferences](https://arxiv.org/abs/2506.02095) | ICCV | T2I | Reward Model, DPO | [Paper](https://arxiv.org/abs/2506.02095), [CVF](https://openaccess.thecvf.com/content/ICCV2025/html/Bahng_Cycle_Consistency_as_Reward_Learning_Image-Text_Alignment_without_Human_Preferences_ICCV_2025_paper.html), [Project](https://cyclereward.github.io/) |
 | 2025 | [Improving Video Generation with Human Feedback](https://arxiv.org/abs/2501.13918) | NeurIPS | T2V | Reward Model, RLHF | [Paper](https://arxiv.org/abs/2501.13918), [Project](https://gongyeliu.github.io/videoalign/), [Code](https://github.com/KwaiVGI/VideoAlign) |
@@ -62,6 +64,9 @@ Method tags: `RLHF`, `PPO`, `DPO`, `GRPO`, `RLOO`, `Reward Model`, `Reward Guida
 
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
+| 2026 | [Rethinking the Design Space of Reinforcement Learning for Diffusion Models: On the Importance of Likelihood Estimation Beyond Loss Design](https://arxiv.org/abs/2602.04663) | ICML | T2I | RLHF | [Paper](https://arxiv.org/abs/2602.04663), [ICML](https://icml.cc/Downloads/2026) |
+| 2026 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://arxiv.org/abs/2509.16117) | ICLR Oral | T2I | RLHF | [Paper](https://arxiv.org/abs/2509.16117), [ICLR](https://iclr.cc/virtual/2026/poster/10009149), [Project](https://research.nvidia.com/labs/dir/DiffusionNFT) |
+| 2026 | [Diffusion Alignment as Variational Expectation-Maximization](https://arxiv.org/abs/2510.00502) | ICLR | T2I | RLHF, Reward Guidance | [Paper](https://arxiv.org/abs/2510.00502), [OpenReview](https://openreview.net/forum?id=aBeIFDshvZ), [Code](https://github.com/Jaewoopudding/dav) |
 | 2025 | [Adaptive Divergence Regularized Policy Optimization for Fine-tuning Generative Models](https://arxiv.org/abs/2510.18053) | NeurIPS | T2I | RLHF | [Paper](https://arxiv.org/abs/2510.18053), [NeurIPS](https://papers.nips.cc/paper_files/paper/2025/hash/b396d8821d3ac740db8b887b5eda6f18-Abstract-Conference.html) |
 | 2025 | [Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning](https://arxiv.org/abs/2511.22640) | NeurIPS | T2I | RLHF | [Paper](https://arxiv.org/abs/2511.22640), [OpenReview](https://openreview.net/pdf?id=JzCjNJlSxI) |
 | 2025 | [Online Reward-Weighted Fine-Tuning of Flow Matching with Wasserstein Regularization](https://arxiv.org/abs/2502.06061) | ICLR | T2I | RLHF | [Paper](https://arxiv.org/abs/2502.06061), [Project](https://gelab-uiuc.github.io/projects/orw/), [OpenReview](https://openreview.net/forum?id=2IoFFexvuw) |
@@ -75,6 +80,11 @@ Method tags: `RLHF`, `PPO`, `DPO`, `GRPO`, `RLOO`, `Reward Model`, `Reward Guida
 
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
+| 2026 | [ViPO: Visual Preference Optimization at Scale](https://arxiv.org/abs/2604.24953) | ICLR | T2I, T2V | DPO | [Paper](https://arxiv.org/abs/2604.24953), [ICLR](https://iclr.cc/virtual/2026/poster/10006676), [OpenReview](https://openreview.net/pdf?id=x5zP3k64Nl) |
+| 2026 | [Towards Better Optimization For Listwise Preference in Diffusion Models](https://arxiv.org/abs/2510.01540) | ICLR | T2I, I2I | DPO | [Paper](https://arxiv.org/abs/2510.01540), [OpenReview](https://openreview.net/forum?id=ippWaS9PG9) |
+| 2026 | [Diffusion Negative Preference Optimization Made Simple](https://openreview.net/forum?id=CU5EHe1KUt) | ICLR | T2I | DPO | [OpenReview](https://openreview.net/forum?id=CU5EHe1KUt) |
+| 2026 | [alpha-DPO: Robust Preference Alignment for Diffusion Models via alpha Divergence](https://openreview.net/forum?id=wqbnA6PcKr) | ICLR | T2I | DPO | [OpenReview](https://openreview.net/forum?id=wqbnA6PcKr), [ICLR](https://iclr.cc/virtual/2026/poster/10006698) |
+| 2026 | [Taming Preference Mode Collapse via Directional Decoupling Alignment in Diffusion Reinforcement Learning](https://arxiv.org/abs/2512.24146) | arXiv | T2I | DPO, RLHF | [Paper](https://arxiv.org/abs/2512.24146) |
 | 2025 | [Diffusion-SDPO: Safeguarded Direct Preference Optimization for Diffusion Models](https://arxiv.org/abs/2511.03317) | arXiv | T2I | DPO | [Paper](https://arxiv.org/abs/2511.03317), [Code](https://github.com/AIDC-AI/Diffusion-SDPO) |
 | 2025 | [CPO: Condition Preference Optimization for Controllable Image Generation](https://arxiv.org/abs/2511.04753) | NeurIPS | T2I, I2I | DPO | [Paper](https://arxiv.org/abs/2511.04753), [OpenReview](https://openreview.net/forum?id=ToEgGjClB9), [Project](https://zonglinl.github.io/CPO_page) |
 | 2025 | [DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models](https://arxiv.org/abs/2506.03517) | arXiv | T2V | DPO | [Paper](https://arxiv.org/abs/2506.03517) |
@@ -104,6 +114,14 @@ Method tags: `RLHF`, `PPO`, `DPO`, `GRPO`, `RLOO`, `Reward Model`, `Reward Guida
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
 | 2026 | [Flow-OPD: On-Policy Distillation for Flow Matching Models](https://arxiv.org/abs/2605.08063) | arXiv | T2I | GRPO | [Paper](https://arxiv.org/abs/2605.08063) |
+| 2026 | [Embedding-perturbed Exploration Preference Optimization for Flow Models](https://arxiv.org/abs/2605.15803) | ICML | T2I | GRPO | [Paper](https://arxiv.org/abs/2605.15803), [ICML](https://icml.cc/Downloads/2026) |
+| 2026 | [World-R1: Reinforcing 3D Constraints for Text-to-Video Generation](https://arxiv.org/abs/2604.24764) | ICML | T2V | GRPO, Reward Model | [Paper](https://arxiv.org/abs/2604.24764), [ICML](https://icml.cc/Downloads/2026) |
+| 2026 | [MAR-GRPO: Stabilized GRPO for AR-diffusion Hybrid Image Generation](https://arxiv.org/abs/2604.06966) | arXiv | T2I | GRPO | [Paper](https://arxiv.org/abs/2604.06966), [Code](https://github.com/AMAP-ML/mar-grpo) |
+| 2026 | [Manifold-Aware Exploration for Reinforcement Learning in Video Generation](https://arxiv.org/abs/2603.21872) | arXiv | T2V | GRPO | [Paper](https://arxiv.org/abs/2603.21872), [Project](https://dungeonmassster.github.io/SAGE-GRPO-Page/), [Code](https://github.com/Tencent-Hunyuan/SAGE-GRPO) |
+| 2026 | [From Sparse to Dense: Multi-View GRPO for Flow Models via Augmented Condition Space](https://arxiv.org/abs/2603.12648) | arXiv | T2I | GRPO | [Paper](https://arxiv.org/abs/2603.12648) |
+| 2026 | [Alleviating Sparse Rewards by Modeling Step-Wise and Long-Term Sampling Effects in Flow-Based GRPO](https://arxiv.org/abs/2602.06422) | ICML | T2I | GRPO | [Paper](https://arxiv.org/abs/2602.06422), [ICML](https://icml.cc/Downloads/2026), [Code](https://github.com/YunzeTong/TurningPoint-GRPO) |
+| 2026 | [DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment](https://arxiv.org/abs/2601.20218) | ICLR | T2I | GRPO, Reward Model | [Paper](https://arxiv.org/abs/2601.20218), [OpenReview](https://openreview.net/pdf?id=nIwFge9nW0) |
+| 2026 | [BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models](https://arxiv.org/abs/2509.06040) | ICLR | T2I, I2V | GRPO | [Paper](https://arxiv.org/abs/2509.06040), [Project](https://fredreic1849.github.io/BranchGRPO-Webpage/) |
 | 2025 | [Identity-GRPO: Optimizing Multi-Human Identity-preserving Video Generation via Reinforcement Learning](https://arxiv.org/abs/2510.14256) | arXiv | I2V | GRPO, Reward Model | [Paper](https://arxiv.org/abs/2510.14256), [Project](https://ali-videoai.github.io/identity_page), [Code](https://github.com/alibaba/identity-grpo) |
 | 2025 | [InfLVG: Reinforce Inference-Time Consistent Long Video Generation with GRPO](https://arxiv.org/abs/2505.17574) | arXiv | T2V | GRPO | [Paper](https://arxiv.org/abs/2505.17574), [Code](https://github.com/MAPLE-AIGC/InfLVG) |
 | 2025 | [DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818) | arXiv | Unified | GRPO | [Paper](https://arxiv.org/abs/2505.07818), [Project](https://dancegrpo.github.io/) |
@@ -114,6 +132,8 @@ Method tags: `RLHF`, `PPO`, `DPO`, `GRPO`, `RLOO`, `Reward Model`, `Reward Guida
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
 | 2026 | [Diffusion-DRF: Free, Rich, and Differentiable Reward for Video Diffusion Fine-Tuning](https://arxiv.org/abs/2601.04153) | arXiv | T2V | Reward Guidance | [Paper](https://arxiv.org/abs/2601.04153) |
+| 2026 | [Scaling Group Inference for Diverse and High-Quality Generation](https://arxiv.org/abs/2508.15773) | ICLR | Unified | Reward Guidance | [Paper](https://arxiv.org/abs/2508.15773), [Project](https://www.cs.cmu.edu/~group-inference), [OpenReview](https://openreview.net/pdf?id=IyTNxjTuWT) |
+| 2026 | [Asynchronous Denoising Diffusion Models for Aligning Text-to-Image Generation](https://arxiv.org/abs/2510.04504) | ICLR | T2I | Reward Guidance | [Paper](https://arxiv.org/abs/2510.04504), [OpenReview](https://openreview.net/forum?id=ZHb4bduWkM), [Code](https://github.com/hu-zijing/AsynDM) |
 | 2025 | [Inference-Time Text-to-Video Alignment with Diffusion Latent Beam Search](https://arxiv.org/abs/2501.19252) | arXiv | T2V | Reward Guidance | [Paper](https://arxiv.org/abs/2501.19252) |
 | 2025 | [Directly Aligning the Full Diffusion Trajectory with Fine-Grained Human Preference](https://arxiv.org/abs/2509.06942) | arXiv | T2I | Reward Guidance, DPO | [Paper](https://arxiv.org/abs/2509.06942) |
 | 2025 | [T2V-Turbo-v2: Enhancing Video Generation Model Post-Training through Data, Reward, and Conditional Guidance Design](https://arxiv.org/abs/2410.05677) | ICLR | T2V | Reward Guidance | [Paper](https://arxiv.org/abs/2410.05677), [Project](https://t2v-turbo-v2.github.io/), [Code](https://github.com/Ji4chenLi/t2v-turbo) |
