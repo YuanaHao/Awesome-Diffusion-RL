@@ -51,9 +51,9 @@ Method tags: `RLHF`, `PPO`, `DPO`, `GRPO`, `RLOO`, `Reward Model`, `Reward Guida
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
 | 2025 | [VideoScore2: Think before You Score in Generative Video Evaluation](https://arxiv.org/abs/2509.22799) | arXiv | T2V | Reward Model, GRPO | [Paper](https://arxiv.org/abs/2509.22799), [Project](https://tiger-ai-lab.github.io/VideoScore2/) |
-| 2024 | [VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation](https://arxiv.org/abs/2412.21059) | arXiv | Unified | Reward Model | [Paper](https://arxiv.org/abs/2412.21059), [Code](https://github.com/THUDM/VisionReward) |
+| 2024 | [VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation](https://arxiv.org/abs/2412.21059) | arXiv | Unified | Reward Model | [Paper](https://arxiv.org/abs/2412.21059), [Code](https://github.com/zai-org/VisionReward) |
 | 2024 | [VideoScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback for Video Generation](https://arxiv.org/abs/2406.15252) | arXiv | T2V | Reward Model | [Paper](https://arxiv.org/abs/2406.15252) |
-| 2023 | [ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation](https://arxiv.org/abs/2304.05977) | NeurIPS | T2I | Reward Model, RLHF | [Paper](https://arxiv.org/abs/2304.05977), [Code](https://github.com/THUDM/ImageReward) |
+| 2023 | [ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation](https://arxiv.org/abs/2304.05977) | NeurIPS | T2I | Reward Model, RLHF | [Paper](https://arxiv.org/abs/2304.05977), [Code](https://github.com/zai-org/ImageReward) |
 | 2023 | [Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation](https://arxiv.org/abs/2305.01569) | NeurIPS | T2I | Reward Model | [Paper](https://arxiv.org/abs/2305.01569), [Code](https://github.com/yuvalkirstain/PickScore) |
 
 ## RLHF / Policy Gradient
@@ -107,7 +107,7 @@ Method tags: `RLHF`, `PPO`, `DPO`, `GRPO`, `RLOO`, `Reward Model`, `Reward Guida
 | Flow-Factory | Unified framework for reinforcement learning in flow-matching models | Unified | DPO, GRPO, Toolkit | [Code](https://github.com/X-GenGroup/Flow-Factory) |
 | Flow-GRPO | Official implementation for training flow-matching image generators with online RL | T2I | GRPO, Toolkit | [Project](https://gongyeliu.github.io/Flow-GRPO/), [Code](https://github.com/yifan123/flow_grpo) |
 | DDPO | Official PyTorch implementation of denoising diffusion policy optimization | T2I | RLHF, PPO, Toolkit | [Project](http://rl-diffusion.github.io), [Code](https://github.com/kvablack/ddpo-pytorch) |
-| ImageReward | Reward model, dataset, and reward-feedback learning code for text-to-image alignment | T2I | Reward Model, RLHF, Toolkit | [Code](https://github.com/THUDM/ImageReward) |
+| ImageReward | Reward model, dataset, and reward-feedback learning code for text-to-image alignment | T2I | Reward Model, RLHF, Toolkit | [Code](https://github.com/zai-org/ImageReward) |
 
 ## Related Areas
 
