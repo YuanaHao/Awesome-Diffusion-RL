@@ -66,6 +66,7 @@ Method tags: `RLHF`, `PPO`, `DPO`, `GRPO`, `RLOO`, `Reward Model`, `Reward Guida
 
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
+| 2026 | [Reinforce Adjoint Matching: Scaling RL Post-Training of Diffusion and Flow-Matching Models](https://arxiv.org/abs/2605.10759) | arXiv | T2I | RLHF | [Paper](https://arxiv.org/abs/2605.10759) |
 | 2026 | [Rethinking the Design Space of Reinforcement Learning for Diffusion Models: On the Importance of Likelihood Estimation Beyond Loss Design](https://arxiv.org/abs/2602.04663) | ICML | T2I | RLHF | [Paper](https://arxiv.org/abs/2602.04663), [ICML](https://icml.cc/Downloads/2026) |
 | 2026 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://arxiv.org/abs/2509.16117) | ICLR Oral | T2I | RLHF | [Paper](https://arxiv.org/abs/2509.16117), [ICLR](https://iclr.cc/virtual/2026/poster/10009149), [Project](https://research.nvidia.com/labs/dir/DiffusionNFT) |
 | 2026 | [Diffusion Alignment as Variational Expectation-Maximization](https://arxiv.org/abs/2510.00502) | ICLR | T2I | RLHF, Reward Guidance | [Paper](https://arxiv.org/abs/2510.00502), [OpenReview](https://openreview.net/forum?id=aBeIFDshvZ), [Code](https://github.com/Jaewoopudding/dav) |
