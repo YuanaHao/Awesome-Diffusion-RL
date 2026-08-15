@@ -56,6 +56,7 @@ Method tags: `RLHF`, `Policy Gradient`, `PPO`, `GRPO`, `RLOO`, `SOC`, `Adjoint`,
 
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
+| 2026 | [RewardHarness: Self-Evolving Agentic Post-Training](https://arxiv.org/abs/2605.08703) | arXiv | I2I | Reward Model, GRPO, Toolkit | [Paper](https://arxiv.org/abs/2605.08703), [Code](https://github.com/TIGER-AI-Lab/RewardHarness) |
 | 2026 | [VIGOR: VIdeo Geometry-Oriented Reward for Temporal Generative Alignment](https://arxiv.org/abs/2603.16271) | arXiv | T2V | Reward Model, Reward Guidance | [Paper](https://arxiv.org/abs/2603.16271) |
 | 2026 | [Beyond VLM-Based Rewards: Diffusion-Native Latent Reward Modeling](https://arxiv.org/abs/2602.11146) | arXiv | T2I | Reward Model | [Paper](https://arxiv.org/abs/2602.11146) |
 | 2025 | [VideoScore2: Think before You Score in Generative Video Evaluation](https://arxiv.org/abs/2509.22799) | arXiv | T2V | Reward Model, GRPO | [Paper](https://arxiv.org/abs/2509.22799), [Project](https://tiger-ai-lab.github.io/VideoScore2/) |
