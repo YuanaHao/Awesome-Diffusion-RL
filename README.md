@@ -76,6 +76,7 @@ These methods treat the denoising or flow trajectory as an on-policy rollout and
 
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
+| 2026 | [iADD: Improving Alignment and Diversity in Diffusion Policy Optimization](https://arxiv.org/abs/2610.01789) | arXiv | T2I | Policy Gradient, PPO, GRPO | [Paper](https://arxiv.org/abs/2610.01789), [Project](https://saugat2002.github.io/iadd/), [Code](https://github.com/Saugat2002/iadd) |
 | 2026 | [Flow-OPD: On-Policy Distillation for Flow Matching Models](https://arxiv.org/abs/2605.08063) | arXiv | T2I | Policy Gradient, GRPO | [Paper](https://arxiv.org/abs/2605.08063) |
 | 2026 | [Embedding-perturbed Exploration Preference Optimization for Flow Models](https://arxiv.org/abs/2605.15803) | ICML | T2I | Policy Gradient, GRPO | [Paper](https://arxiv.org/abs/2605.15803), [ICML](https://icml.cc/Downloads/2026) |
 | 2026 | [World-R1: Reinforcing 3D Constraints for Text-to-Video Generation](https://arxiv.org/abs/2604.24764) | ICML | T2V | Policy Gradient, GRPO, Reward Model | [Paper](https://arxiv.org/abs/2604.24764), [ICML](https://icml.cc/Downloads/2026) |
