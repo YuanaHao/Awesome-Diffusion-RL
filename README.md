@@ -134,6 +134,7 @@ These methods preserve the pretraining-style regression or score-matching struct
 
 | Year | Paper | Venue | Task | Method | Resources |
 | --- | --- | --- | --- | --- | --- |
+| 2026 | [MEND: RL For Flow Models via Proximal Velocity Matching](https://arxiv.org/abs/2610.05954) | arXiv | T2I | Reward-Corrected Regression | [Paper](https://arxiv.org/abs/2610.05954), [Code](https://github.com/shreshthsaini/MEND-RL), [Project](https://shreshthsaini.github.io/MEND-RL/) |
 | 2026 | [Reinforce Adjoint Matching: Scaling RL Post-Training of Diffusion and Flow-Matching Models](https://arxiv.org/abs/2605.10759) | arXiv | T2I | Reward-Corrected Regression, SOC | [Paper](https://arxiv.org/abs/2605.10759) |
 | 2026 | [Reward Score Matching: Unifying Reward-based Fine-tuning for Flow and Diffusion Models](https://arxiv.org/abs/2604.17415) | arXiv | T2I | Reward-Corrected Regression, Score Matching | [Paper](https://arxiv.org/abs/2604.17415) |
 
