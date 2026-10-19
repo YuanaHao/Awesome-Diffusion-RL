@@ -200,6 +200,7 @@ These methods preserve the pretraining-style regression or score-matching struct
 | --- | --- | --- | --- | --- |
 | Flow-Factory | Unified framework for reinforcement learning in flow-matching models | Unified | DPO, GRPO, Toolkit | [Code](https://github.com/X-GenGroup/Flow-Factory) |
 | Flow-GRPO | Official implementation for training flow-matching image generators with online RL | T2I | GRPO, Toolkit | [Project](https://gongyeliu.github.io/Flow-GRPO/), [Code](https://github.com/yifan123/flow_grpo) |
+| VeRL-Omni | RL post-training for diffusion, unified multimodal generative, and omni-modality models | Unified | FlowGRPO, DanceGRPO, GSPO, DPO, Toolkit | [Code](https://github.com/verl-project/verl-omni), [Docs](https://verl-omni.readthedocs.io/en/latest/index.html) |
 | DDPO | Official PyTorch implementation of denoising diffusion policy optimization | T2I | RLHF, PPO, Toolkit | [Project](http://rl-diffusion.github.io), [Code](https://github.com/kvablack/ddpo-pytorch) |
 | ImageReward | Reward model, dataset, and reward-feedback learning code for text-to-image alignment | T2I | Reward Model, RLHF, Toolkit | [Code](https://github.com/zai-org/ImageReward) |
 
